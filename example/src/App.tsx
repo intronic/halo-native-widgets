@@ -2,7 +2,12 @@ import { useState, useEffect } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import { multiply } from 'com-halo9000-native-widgets';
 
-export default function App() {
+
+// storybook app
+export { default } from '../.storybook';
+
+// example app
+export function App() {
   const [result, setResult] = useState<number | undefined>();
 
   useEffect(() => {
