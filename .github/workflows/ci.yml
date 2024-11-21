@@ -20,6 +20,7 @@ jobs:
       - name: Setup
         uses: ./.github/actions/setup
 
+      # TODO: replace yarn?
       - name: Lint files
         run: yarn lint
 
@@ -59,6 +60,6 @@ jobs:
       - name: Setup
         uses: ./.github/actions/setup
 
-      - name: Build example for Web
+      - name: Build demo-app for Web
         run: |
-          yarn example expo export --platform web
+          yarn demo-app expo export --platform web

@@ -37,7 +37,8 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "npm --workspace=example",
+    "storybook": "npm --workspace=storybook",
+    "demo-app": "npm --workspace=demo-app",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -87,12 +88,14 @@
     "@types/react": "^18.2.44"
   },
   "workspaces": [
-    "example"
+    "storybook",
+    "demo-app"
   ],
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
+      "<rootDir>/storybook/node_modules",
+      "<rootDir>/demo-app/node_modules",
       "<rootDir>/lib/"
     ]
   },
@@ -180,6 +183,7 @@
     "version": "0.44.1"
   },
   "dependencies": {
-    "example": "^0.0.0"
+    "com-halo9000-native-widgets-storybook": "^0.0.0",
+    "com-halo9000-native-widgets-demo-app": "^0.0.0"
   }
 }
