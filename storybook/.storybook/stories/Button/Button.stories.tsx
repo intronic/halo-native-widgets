@@ -27,8 +27,8 @@ type Story = StoryObj<typeof meta>;
 
 export const Basic: Story = {};
 
-export const AnotherExample: Story = {
+export const AnotherOne: Story = {
   args: {
-    text: 'Another example',
+    text: 'Another One',
   },
 };

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "example",
-    "slug": "example",
+    "name": "storybook",
+    "slug": "storybook",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "comhalo9000nativewidgets.example"
+      "bundleIdentifier": "comhalo9000nativewidgets.storybook"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "comhalo9000nativewidgets.example"
+      "package": "comhalo9000nativewidgets.storybook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
